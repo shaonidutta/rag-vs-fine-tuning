@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "total_qa_pairs": 37,
+    "splits": {
+      "train": 25,
+      "validation": 5,
+      "test": 7
+    }
+  },
+  "splits": {
+    "train": [
+      {
+        "question": "How long did it take for the Transformer model to achieve a new single-model state-of-the-art BLEU score of 41.0 on the WMT 2014 English-to-French translation task?",
+        "answer": "The Transformer model achieved a BLEU score of 41.0 after training for 3.5 days on eight GPUs.",
+        "type": "analytical",
+        "document": "attention-is-all-you-need-1hodz0wcqb"
+      },
+      {
+        "question": "Who are some of the authors of the paper 'Attention Is All You Need'?",
+        "answer": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, ukasz Kaiser, Illia Polosukhin",
+        "type": "factual",
+        "document": "attention-is-all-you-need-1hodz0wcqb"
+      },
+      {
+        "question": "What is the advantage of using Transformers in natural language processing?",
+        "answer": "Transformers offer computational efficiency and scalability, allowing for training models of unprecedented size with over 100B parameters.",
+        "type": "analytical",
+        "document": "an-image-is-worth-16x16-words-transformers-for-image-4jabumurhl"
+      },
+      {
+        "question": "What is the dominant approach in natural language processing using Transformers?",
+        "answer": "The dominant approach is to pre-train on a large text corpus and then fine-tune on a smaller task-specific dataset.",
+        "type": "analytical",
+        "document": "an-image-is-worth-16x16-words-transformers-for-image-4jabumurhl"
+      },
+      {
+        "question": "What is the significance of BERT in the field of natural language processing?",
+        "answer": "BERT is conceptually simple and empirically powerful, achieving state-of-the-art results on multiple NLP tasks and pushing performance benchmarks.",
+        "type": "analytical",
+        "document": "N19-1423"
+      },
+      {
+        "question": "What is the proposed network architecture in the text?",
+        "answer": "The Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.",
+        "type": "inferential",
+        "document": "attention-is-all-you-need-1hodz0wcqb"
+      },
+      {
+        "question": "How has the reliance on CNNs been challenged in computer vision tasks?",
+        "answer": "The reliance on CNNs has been challenged by showing that a pure transformer applied directly to sequences of image patches can perform very well on image classification tasks.",
+        "type": "inferential",
+        "document": "an-image-is-worth-16x16-words-transformers-for-image-4jabumurhl"
+      },
+      {
+        "question": "What are some of the state-of-the-art results achieved by BERT on natural language processing tasks?",
+        "answer": "GLUE score to 80.5%, Multi NLI accuracy to 86.7%, SQu AD v1.1 Test F1 to 93.2, and SQu AD v2.0 Test F1 to 83.1.",
+        "type": "factual",
+        "document": "N19-1423"
+      },
+      {
+        "question": "Why was BERT designed to pretrain deep bidirectional representations from unlabeled text?",
+        "answer": "BERT was designed to pretrain deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.",
+        "type": "inferential",
+        "document": "N19-1423"
+      },
+      {
+        "question": "Why do convolutional architectures remain dominant in computer vision?",
+        "answer": "Convolutional architectures remain dominant in computer vision because they have been successful in tasks such as image classification.",
+        "type": "inferential",
+        "document": "an-image-is-worth-16x16-words-transformers-for-image-4jabumurhl"
+      },
+      {
+        "question": "How does the Vision Transformer (Vi T) perform compared to state-of-the-art convolutional networks?",
+        "answer": "The Vision Transformer (Vi T) performs excellently compared to state-of-the-art convolutional networks while requiring fewer computational resources to train.",
+        "type": "inferential",
+        "document": "an-image-is-worth-16x16-words-transformers-for-image-4jabumurhl"
+      },
+      {
+        "question": "What improvements did BERT achieve in natural language processing tasks like GLUE score, Multi NLI accuracy, and SQu AD question answering Test F1?",
+        "answer": "BERT achieved new state-of-the-art results with improvements in GLUE score, Multi NLI accuracy, and SQu AD question answering Test F1.",
+        "type": "inferential",
+        "document": "N19-1423"
+      },
+      {
+        "question": "How does BERT compare to recent language representation models?",
+        "answer": "Unlike recent models, BERT is designed to pretrain deep bidirectional representations from unlabeled text by conditioning on both left and right context in all layers.",
+        "type": "analytical",
+        "document": "N19-1423"
+      },
+      {
+        "question": "What are some of the state-of-the-art results obtained by BERT?",
+        "answer": "BERT achieves new state-of-the-art results on tasks like GLUE score, Multi NLI accuracy, SQuAD v1.1 and v2.0 question answering Test F1.",
+        "type": "analytical",
+        "document": "N19-1423"
+      },
+      {
+        "question": "What types of tasks can benefit from language model pre-training according to the introduction?",
+        "answer": "Tasks such as natural language inference, paraphrasing, named entity recognition, and question answering can benefit from language model pre-training according to the introduction.",
+        "type": "inferential",
+        "document": "N19-1423"
+      },
+      {
+        "question": "What has made it possible to train models of unprecedented size in natural language processing?",
+        "answer": "The computational efficiency and scalability of Transformers have made it possible to train models of unprecedented size in natural language processing.",
+        "type": "inferential",
+        "document": "an-image-is-worth-16x16-words-transformers-for-image-4jabumurhl"
+      },
+      {
+        "question": "What tasks can the pre-trained BERT model be fine-tuned for with just one additional output layer?",
+        "answer": "The pre-trained BERT model can be fine-tuned for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications.",
+        "type": "inferential",
+        "document": "N19-1423"
+      },
+      {
+        "question": "What is the dominant approach in natural language processing according to the text?",
+        "answer": "Pre-training on a large text corpus and fine-tuning on a smaller task-specific dataset",
+        "type": "factual",
+        "document": "an-image-is-worth-16x16-words-transformers-for-image-4jabumurhl"
+      },
+      {
+        "question": "How have self-attention-based architectures, like Transformers, impacted the field of natural language processing?",
+        "answer": "Self-attention-based architectures have become the model of choice in natural language processing, allowing for the training of large models with impressive performance.",
+        "type": "analytical",
+        "document": "an-image-is-worth-16x16-words-transformers-for-image-4jabumurhl"
+      },
+      {
+        "question": "What has language model pre-training been shown to be effective for?",
+        "answer": "Improving many natural language processing tasks, including sentence-level tasks like natural language inference and token-level tasks like named entity recognition and question answering.",
+        "type": "factual",
+        "document": "N19-1423"
+      },
+      {
+        "question": "Who proposed replacing RNNs with self-attention in the text?",
+        "answer": "Jakob proposed replacing RNNs with self-attention.",
+        "type": "inferential",
+        "document": "attention-is-all-you-need-1hodz0wcqb"
+      },
+      {
+        "question": "How does the Transformer model compare to existing models in terms of training costs?",
+        "answer": "Our model requires a small fraction of the training costs of the best models from the literature.",
+        "type": "inferential",
+        "document": "attention-is-all-you-need-1hodz0wcqb"
+      },
+      {
+        "question": "What does BERT stand for?",
+        "answer": "Bidirectional Encoder Representations from Transformers",
+        "type": "factual",
+        "document": "N19-1423"
+      },
+      {
+        "question": "Why is language model pre-training effective for improving natural language processing tasks?",
+        "answer": "Language model pre-training has been shown to be effective for improving tasks by analyzing relationships between sentences holistically and predicting token-level tasks like named entity recognition and question answering.",
+        "type": "analytical",
+        "document": "N19-1423"
+      },
+      {
+        "question": "What BLEU score did the Transformer model achieve on the WMT 2014 English-to-German translation task?",
+        "answer": "The Transformer model achieved a BLEU score of 28.4, improving over the existing best results by over 2 BLEU.",
+        "type": "analytical",
+        "document": "attention-is-all-you-need-1hodz0wcqb"
+      }
+    ],
+    "validation": [
+      {
+        "question": "Who are the authors of the paper?",
+        "answer": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby",
+        "type": "factual",
+        "document": "an-image-is-worth-16x16-words-transformers-for-image-4jabumurhl"
+      },
+      {
+        "question": "What tasks can the pre-trained BERT model be fine-tuned for?",
+        "answer": "A wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications.",
+        "type": "factual",
+        "document": "N19-1423"
+      },
+      {
+        "question": "How do the experiments on machine translation tasks show the superiority of the Transformer model?",
+        "answer": "The model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task and establishes a new single-model state-of-the-art BLEU score of 41.0 on the WMT 2014 English-to-French translation task.",
+        "type": "inferential",
+        "document": "attention-is-all-you-need-1hodz0wcqb"
+      },
+      {
+        "question": "What is the main difference between BERT and other recent language representation models?",
+        "answer": "BERT is designed to pretrain deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.",
+        "type": "factual",
+        "document": "N19-1423"
+      },
+      {
+        "question": "Who proposed replacing RNNs with self-attention in the Transformer model?",
+        "answer": "Jakob proposed replacing RNNs with self-attention in the Transformer model.",
+        "type": "analytical",
+        "document": "attention-is-all-you-need-1hodz0wcqb"
+      }
+    ],
+    "test": [
+      {
+        "question": "How does the Vision Transformer (Vi T) compare to state-of-the-art convolutional networks in image classification tasks?",
+        "answer": "The Vision Transformer (Vi T) attains excellent results compared to state-of-the-art convolutional networks while requiring substantially fewer computational resources to train.",
+        "type": "analytical",
+        "document": "an-image-is-worth-16x16-words-transformers-for-image-4jabumurhl"
+      },
+      {
+        "question": "What are the advantages of using the Transformer model in machine translation tasks?",
+        "answer": "The Transformer model is superior in quality, more parallelizable, and requires significantly less time to train compared to traditional models.",
+        "type": "analytical",
+        "document": "attention-is-all-you-need-1hodz0wcqb"
+      },
+      {
+        "question": "How does the Transformer network architecture compare to traditional sequence transduction models?",
+        "answer": "The Transformer network architecture is based solely on attention mechanisms, dispensing with recurrence and convolutions entirely, while traditional models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder.",
+        "type": "analytical",
+        "document": "attention-is-all-you-need-1hodz0wcqb"
+      },
+      {
+        "question": "What is the advantage of using Vision Transformer (Vi T) compared to convolutional networks?",
+        "answer": "Requires substantially fewer computational resources to train",
+        "type": "factual",
+        "document": "an-image-is-worth-16x16-words-transformers-for-image-4jabumurhl"
+      },
+      {
+        "question": "How does BERT compare to other recent language representation models in terms of simplicity and power?",
+        "answer": "BERT is conceptually simple and empirically powerful compared to other recent language representation models.",
+        "type": "inferential",
+        "document": "N19-1423"
+      },
+      {
+        "question": "What is the key finding regarding the reliance on CNNs in computer vision tasks?",
+        "answer": "The reliance on CNNs is not necessary, as a pure transformer applied directly to sequences of image patches can perform very well on image classification tasks.",
+        "type": "analytical",
+        "document": "an-image-is-worth-16x16-words-transformers-for-image-4jabumurhl"
+      },
+      {
+        "question": "Why is there no sign of saturating performance in models and datasets in natural language processing?",
+        "answer": "There is no sign of saturating performance in models and datasets in natural language processing due to the continued growth of models and datasets.",
+        "type": "inferential",
+        "document": "an-image-is-worth-16x16-words-transformers-for-image-4jabumurhl"
+      }
+    ]
+  }
+}

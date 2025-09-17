@@ -1,0 +1,33 @@
+# Core RAG Dependencies
+openai>=1.0.0                    # OpenAI API for embeddings and LLM
+chromadb>=0.4.0                  # Vector database for storing embeddings
+langchain>=0.1.0                 # Framework for building RAG applications
+langchain-openai>=0.1.0          # OpenAI integration for LangChain
+
+# PDF Processing
+PyPDF2>=3.0.0                    # PDF text extraction
+pdfplumber>=0.9.0                # Advanced PDF processing with layout info
+pymupdf>=1.23.0                  # Alternative PDF processor (fitz)
+
+# Text Processing and NLP
+nltk>=3.8                        # Natural language processing toolkit
+spacy>=3.7.0                     # Advanced NLP library
+textstat>=0.7.0                  # Text readability and complexity metrics
+sentence-transformers>=2.2.0     # For local embeddings (backup option)
+
+# Data Handling and Analysis
+pandas>=2.0.0                    # Data manipulation and analysis
+numpy>=1.24.0                    # Numerical computing
+matplotlib>=3.7.0                # Plotting and visualization
+seaborn>=0.12.0                  # Statistical data visualization
+wordcloud>=1.9.0                 # Word cloud generation for analysis
+
+# Utilities
+python-dotenv>=1.0.0             # Environment variable management
+tqdm>=4.65.0                     # Progress bars
+jupyter>=1.0.0                   # Jupyter notebook support
+streamlit>=1.28.0                # Web interface for RAG system
+
+# Quality Assessment
+textblob>=0.17.0                 # Sentiment analysis and text processing
+scikit-learn>=1.3.0              # Machine learning utilities for clustering/analysis
